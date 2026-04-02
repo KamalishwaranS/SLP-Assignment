@@ -10,7 +10,7 @@ def text_cleaner(text):
     # lower case text
     newString = text.lower()
     newString = re.sub(r"'s\b","",newString)
-    # remove punctuations
+    # remove punctuations 
     newString = re.sub("[^a-zA-Z]", " ", newString)
     long_words=[]
     # remove short word
