@@ -1,5 +1,5 @@
 import streamlit as st
-# Function to calculate perplexity based on sentence length
+# Function to calculate perplexity based on sentence length 
 def calculate_perplexity(sentence):
     length = len(sentence)
     if length > 70:
